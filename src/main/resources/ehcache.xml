@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <ehcache>
 
     <diskStore path="java.io.tmpdir"/>
@@ -15,7 +15,7 @@
         <persistence strategy="localTempSwap"/>
     </defaultCache>
 
-    <cache name="sampleCache1"
+    <cache name="userCache"
            maxEntriesLocalHeap="10000"
            maxEntriesLocalDisk="1000"
            eternal="false"
